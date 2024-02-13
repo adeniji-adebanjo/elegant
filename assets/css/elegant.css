@@ -1,0 +1,20 @@
+* {
+  font-family: var(--primary-font);
+}
+.top-nav {
+  background-color: var(--neutral-2);
+  font-size: 12px;
+}
+.top-nav a {
+  font-size: 12px;
+}
+.menu a {
+  font-size: 12px;
+}
+.showroom h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.showroom p {
+  font-size: 12px;
+}
