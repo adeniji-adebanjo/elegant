@@ -18,3 +18,56 @@
 .showroom p {
   font-size: 12px;
 }
+.card-group {
+  column-gap: 2em;
+}
+.card-body h3 {
+  font-size: 13px;
+}
+.card-body p {
+  font-size: 11px;
+}
+.card-group .add-to-cart .btn :hover {
+  display: block;
+}
+.new-arrivals-overlay h4 {
+  font-size: 13px;
+  background: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  max-width: fit-content;
+  text-transform: uppercase;
+}
+.new-arrivals-overlay p {
+  font-size: 12px;
+  background-color: var(--percentage-off);
+  color: var(--neutral-2);
+  max-width: fit-content;
+  padding: 3px;
+  border-radius: 3px;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card .add-to-cart button {
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.card:hover .add-to-cart button {
+  opacity: 1;
+}
+.usp {
+  column-gap: 1em;
+}
+.usp-cards {
+  background-color: #e8ecef;
+}
+.usp-cards h5 {
+  font-size: 13px;
+}
+.usp-cards p {
+  font-size: 11px;
+}
