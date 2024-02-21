@@ -18,6 +18,17 @@
 .showroom p {
   font-size: 12px;
 }
+/* .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-title,
+.card-text {
+  display: block;
+} */
+
 .card-group {
   column-gap: 2em;
 }
