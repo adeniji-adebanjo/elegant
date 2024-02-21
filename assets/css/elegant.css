@@ -82,3 +82,56 @@
 .usp-cards p {
   font-size: 11px;
 }
+/* sales banner */
+.sales-banner {
+  background-color: var(--grey);
+}
+.sales-banner p#salesP {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 13px;
+}
+.sales-banner p {
+  font-size: 13px;
+}
+
+.sales-banner .salesB button {
+  border-bottom: 1.5px solid #000 !important;
+  border-radius: 0;
+}
+.articles .articlesB button {
+  border-bottom: 1.5px solid #000;
+  border-radius: 0;
+}
+
+.articles .card .card-body a {
+  color: #000;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.card-img-tilt {
+  transition: transform 0.5s;
+}
+
+.card:hover .card-img-tilt {
+  animation: tilt 0.5s;
+}
+
+/* Newsletter styles */
+.newsletter {
+  background-image: url("assets/images/newsletter.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
